@@ -8,6 +8,7 @@ This project demonstrates strong expertise in full-stack architecture, modular A
 
 🚀 CORE FEATURES
 
+
 👤 User Features
 
 Secure Authentication (JWT + bcrypt)
@@ -22,6 +23,7 @@ Real-time updates for posts or actions
 
 Responsive dashboard with clean UI/UX
 
+
 🧑‍💼 Admin Features
 
 Manage student accounts
@@ -29,6 +31,7 @@ Manage student accounts
 Moderate uploaded resources
 
 View platform analytics (if available)
+
 
 🔧 Technical Features
 
