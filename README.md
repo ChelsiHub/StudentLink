@@ -7,13 +7,6 @@
 
 > **A full-stack MERN web platform built to streamline student networking, academic collaboration, and resource sharing. Designed with clean architecture, secure authentication, reusable components, and scalable backend APIs — demonstrating capability for MNC-level Full-Stack Developer roles.**
 
----
-
-## 🚀 Live Demo & Project Showcase
-
-**This application is deployed and fully functional, demonstrating end-to-end development, deployment, and operational readiness.**
-
-🔗 **View Live Application:** **[INSERT YOUR LIVE DEMO LINK HERE]**
 
 ---
 
@@ -140,7 +133,9 @@ npm start
 The frontend will open automatically at:
 
 👉 **http://localhost:3000**
+
 ---
+
 ## 🔗 API Endpoints (RESTful Design)
 
 A clean and intuitive RESTful structure ensures predictable and maintainable API interactions:
@@ -151,18 +146,19 @@ A clean and intuitive RESTful structure ensures predictable and maintainable API
 | GET    | /api/students     | Fetch All Student Profiles | Yes |
 | PUT    | /api/profile/update | Update Authenticated User's Profile | Yes |
 | POST   | /api/resources    | Upload New Academic Resources | Yes |
+
 ---
+
 ## 📸 Screenshots (Visual Proof of Concept)
 
 These visuals showcase the modern UI/UX and professional data presentation standards used in the application:
 
-<!-- Example screenshot format -->
 ![Dashboard View](./screenshots/dashboard.png)
 ![Student Profile](./screenshots/profile.png)
 ![Resource Upload](./screenshots/resource-upload.png)
 
-*Replace the image paths with your actual screenshot files.*
 ---
+
 ## 👩‍💻 Developer & Contact
 
 **Chelsi Patoliya | Full-Stack MERN Developer**
@@ -175,7 +171,9 @@ Showcasing proficiency in building scalable, secure, and well-architected web ap
 - 📱 Phone: +91 9313373532  
 - 🔗 LinkedIn: [https://www.linkedin.com/in/chelsipatoliya0316](https://www.linkedin.com/in/chelsipatoliya0316)  
 - 💻 GitHub: [https://github.com/ChelsiHub](https://github.com/ChelsiHub)  
+
 ---
+
 ## 🤝 Contributions
 
 Open to suggestions, feature requests, and improvements.  
