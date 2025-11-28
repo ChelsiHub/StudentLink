@@ -55,7 +55,7 @@ This solution utilizes the industry-standard **MERN Stack**, highlighting profic
 ## 🏗️ Architecture & Organization
 
 The codebase follows a structured, modular organization to ensure scalability and ease of debugging—a key requirement for large team environments.
-## 📁 Project Structure — StudentLink
+
 ```text
 StudentLink/
 │
