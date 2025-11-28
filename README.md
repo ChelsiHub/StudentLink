@@ -4,7 +4,10 @@ StudentLink is a full-stack MERN web application designed to simplify academic c
 
 This project demonstrates strong expertise in full-stack architecture, modular API development, and scalable UI engineering, making it highly suitable for MNC full-stack developer roles.
 
+
+
 🚀 CORE FEATURES
+
 👤 User Features
 
 Secure Authentication (JWT + bcrypt)
@@ -43,7 +46,10 @@ Error handling & form validation
 
 Fully responsive UI
 
+
+
 🛠 TECH STACK
+
 FRONTEND
 
 React.js
@@ -72,38 +78,67 @@ Password hashing with bcrypt
 
 Input validation
 
+
+
 📁 Project Folder Structure
+
 StudentLink/
+
  ┣ backend/
+ 
  ┃ ┣ controllers/
+ 
  ┃ ┣ models/
+ 
  ┃ ┣ routes/
+ 
  ┃ ┣ config/
+ 
  ┃ ┣ server.js
+ 
  ┣ frontend/
+ 
  ┃ ┣ src/
+ 
  ┃ ┣ components/
+ 
  ┃ ┣ pages/
+ 
  ┃ ┣ App.js
+ 
  ┃ ┣ index.js
+ 
  ┣ .env.example
+ 
  ┣ package.json
+ 
  ┣ README.md
 
+
+
 ⚙️ INSTALLATION & SETUP
+
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/ChelsiHub/StudentLink.git
+
 cd StudentLink
 
+
 2️⃣ Backend Setup
+
 cd backend
+
 npm install
 
 
 Create a .env file:
 
 MONGO_URI=your_mongodb_connection
+
 JWT_SECRET=your_secret_key
+
 PORT=5000
 
 
@@ -111,9 +146,13 @@ Start backend:
 
 npm start
 
+
 3️⃣ Frontend Setup
+
 cd frontend
+
 npm install
+
 npm start
 
 
@@ -121,14 +160,24 @@ Frontend runs on:
 
 http://localhost:3000
 
+
+
 📌 API ENDPOINTS 
-Method	Endpoint	Description
+
 POST	/api/auth/register	Register student
+
 POST	/api/auth/login	Login
+
 GET	/api/students	Get all students
+
 PUT	/api/profile/update	Update profile
+
 POST	/api/resources	Upload resource
+
+
 📸 SCREENSHOTS
+
+
 
 
 
@@ -149,10 +198,14 @@ Reflects clean Git practices & organized folder structure
 👩‍💻 DEVELOPER
 
 Chelsi Patoliya
+
 📍 Ahmedabad, Gujarat
+
 🔗 GitHub: https://github.com/ChelsiHub
 
 🔗 LinkedIn: https://www.linkedin.com/in/chelsipatoliya0316
+
+
 
 🤝 Contributions
 
