@@ -1,9 +1,5 @@
 ## 🏆 StudentLink: MERN Stack Student Networking & Academic Platform
 
-[![Project Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)](https://github.com/ChelsiHub/StudentLink)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ChelsiHub/StudentLink)](https://github.com/ChelsiHub/StudentLink)
-[![Contributors](https://img.shields.io/github/contributors/ChelsiHub/StudentLink)](https://github.com/ChelsiHub/StudentLink/graphs/contributors)
 
 > **A full-stack MERN web platform built to streamline student networking, academic collaboration, and resource sharing. Designed with clean architecture, secure authentication, reusable components, and scalable backend APIs — demonstrating capability for MNC-level Full-Stack Developer roles.**
 
