@@ -85,14 +85,14 @@ StudentLink/
 │
 ├── .env.example
 └── package.json
-
+```
 ---
 
 ## ⚙️ Installation & Local Setup
 
 Follow the steps below to run **StudentLink** on your local machine.
 
----
+
 
 ### 1️⃣ Clone the Repository
 
