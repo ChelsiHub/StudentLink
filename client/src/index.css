@@ -1,0 +1,25 @@
+/* client/src/index.css */
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* 1. Force html and body to take full screen */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100vw !important; /* Viewport Width */
+  height: 100vh !important; /* Viewport Height */
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+/* 2. Force the React Root div to un-restrict itself */
+#root {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important; /* <--- This kills the "space on right" issue */
+  text-align: left;
+  display: flex; /* Ensures children fill the height */
+  flex-direction: column;
+}
