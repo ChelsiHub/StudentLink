@@ -99,3 +99,84 @@ Follow the steps below to run **StudentLink** on your local machine.
 ```bash
 git clone https://github.com/ChelsiHub/StudentLink.git
 cd StudentLink
+```
+
+### 2️⃣ Backend Setup & Environment Variables
+
+Navigate to the backend folder and install all dependencies:
+
+```bash
+cd backend
+npm install
+```
+Create a **.env** file inside the `backend` directory and add the following environment variables:
+
+```env
+MONGO_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=a_long_complex_secret_key
+PORT=5000
+```
+Start the server:
+
+```bash
+npm start
+```
+The server will be running at:
+
+👉 **http://localhost:5000**
+### 3️⃣ Frontend Setup
+
+Navigate to the frontend directory and install dependencies:
+
+```bash
+cd ../frontend
+npm install
+```
+Start the client application:
+
+```bash
+npm start
+```
+The frontend will open automatically at:
+
+👉 **http://localhost:3000**
+---
+## 🔗 API Endpoints (RESTful Design)
+
+A clean and intuitive RESTful structure ensures predictable and maintainable API interactions:
+| Method | Endpoint | Description | Requires Auth |
+|--------|---------|------------|---------------|
+| POST   | /api/auth/register | Register New Student Account | No |
+| POST   | /api/auth/login    | Authenticate and Receive JWT Token | No |
+| GET    | /api/students     | Fetch All Student Profiles | Yes |
+| PUT    | /api/profile/update | Update Authenticated User's Profile | Yes |
+| POST   | /api/resources    | Upload New Academic Resources | Yes |
+---
+## 📸 Screenshots (Visual Proof of Concept)
+
+These visuals showcase the modern UI/UX and professional data presentation standards used in the application:
+
+<!-- Example screenshot format -->
+![Dashboard View](./screenshots/dashboard.png)
+![Student Profile](./screenshots/profile.png)
+![Resource Upload](./screenshots/resource-upload.png)
+
+*Replace the image paths with your actual screenshot files.*
+---
+## 👩‍💻 Developer & Contact
+
+**Chelsi Patoliya | Full-Stack MERN Developer**
+
+Showcasing proficiency in building scalable, secure, and well-architected web applications.
+
+**Contact Information:**
+
+- 📧 Email: chelsipatoliya@gmail.com  
+- 📱 Phone: +91 9313373532  
+- 🔗 LinkedIn: [https://www.linkedin.com/in/chelsipatoliya0316](https://www.linkedin.com/in/chelsipatoliya0316)  
+- 💻 GitHub: [https://github.com/ChelsiHub](https://github.com/ChelsiHub)  
+---
+## 🤝 Contributions
+
+Open to suggestions, feature requests, and improvements.  
+Please feel free to fork the repository and submit a **Pull Request**!
