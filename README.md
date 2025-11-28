@@ -66,20 +66,71 @@ This solution utilizes the industry-standard **MERN Stack**, highlighting profic
 ## 🏗️ Architecture & Organization
 
 The codebase follows a structured, modular organization to ensure scalability and ease of debugging—a key requirement for large team environments.
+## 📁 Project Structure — StudentLink
+```text
 StudentLink/
 │
 ├── backend/
-│ ├── controllers/ # Business Logic
-│ ├── models/ # Data Schemas (Mongoose)
-│ ├── routes/ # API Endpoints (Express Router)
-│ ├── config/ # Environment and DB connection
-│ └── server.js # Entry Point
+│   ├── controllers/   # Business Logic
+│   ├── models/        # Data Schemas (Mongoose)
+│   ├── routes/        # API Endpoints (Express Router)
+│   ├── config/        # Environment and DB connection
+│   └── server.js      # Entry Point
 │
 ├── frontend/
-│ ├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Screen-level views
-│ └── index.js # React Entry
+│   ├── src/
+│   ├── components/    # Reusable UI components
+│   ├── pages/         # Screen-level views
+│   └── index.js       # React Entry
 │
 ├── .env.example
 └── package.json
+
+## ⚙️ Installation & Local Setup
+
+Follow the steps below to run **StudentLink** on your local machine.
+
+---
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/ChelsiHub/StudentLink.git
+cd StudentLink
+---
+
+### 2️⃣ Backend Setup & Environment Variables
+
+Navigate to the backend folder and install all dependencies:
+
+```bash
+cd backend
+npm install
+Create a **.env** file inside the `backend` directory and add the following environment variables:
+
+```env
+MONGO_URI=your_mongodb_atlas_connection_string
+JWT_SECRET=a_long_complex_secret_key
+PORT=5000
+Start the backend server:
+
+```bash
+npm start
+The backend will run at:
+
+👉 **http://localhost:5000**
+### 3️⃣ Frontend Setup
+
+Navigate to the frontend directory and install dependencies:
+
+```bash
+cd ../frontend
+npm install
+Start the client application:
+
+```bash
+npm start
+The frontend will open automatically at:
+
+👉 **http://localhost:3000**
+
