@@ -66,3 +66,4 @@ This solution utilizes the industry-standard **MERN Stack**, highlighting profic
 ## 🏗️ Architecture & Organization
 
 The codebase follows a structured, modular organization to ensure scalability and ease of debugging—a key requirement for large team environments.
+StudentLink/ │ ├── backend/ │   ├── controllers/ # Business Logic │   ├── models/ # Data Schemas (Mongoose) │   ├── routes/ # API Endpoints (Express Router) │   ├── config/ # Environment and DB connection │   └── server.js # Entry Point │ ├── frontend/ │   ├── src/ │   ├── components/ # Reusable UI components │   ├── pages/ # Screen-level views │   └── index.js # React Entry │ ├── .env.example └── package.json
