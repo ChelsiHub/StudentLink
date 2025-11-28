@@ -85,6 +85,7 @@ StudentLink/
 │
 ├── .env.example
 └── package.json
+
 ---
 
 ## ⚙️ Installation & Local Setup
@@ -98,6 +99,7 @@ Follow the steps below to run **StudentLink** on your local machine.
 ```bash
 git clone https://github.com/ChelsiHub/StudentLink.git
 cd StudentLink
+
 ---
 
 ### 2️⃣ Backend Setup & Environment Variables
