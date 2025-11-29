@@ -145,13 +145,32 @@ A clean and intuitive RESTful structure ensures predictable and maintainable API
 
 ---
 
-## 📸 Screenshots (Visual Proof of Concept)
+## 📸 Application Screenshots
 
-These visuals showcase the modern UI/UX and professional data presentation standards used in the application:
+### 🚀 Landing Page
+The first page users see with an overview of the platform.
+![Landing Page](./screenshots/landing.png)
 
-![Dashboard View](./screenshots/dashboard.png)
-![Student Profile](./screenshots/profile.png)
-![Resource Upload](./screenshots/resource-upload.png)
+### 🔐 Authentication Page
+Login / Register interface for user authentication.
+![Authentication Page](./screenshots/auth.png)
+
+### 🏡 Home Page
+Main dashboard displayed after successful login.
+![Home Page](./screenshots/home.png)
+
+### 👥 Groups Page
+Shows different community groups and collaboration sections.
+![Groups Page](./screenshots/groups.png)
+
+### 💼 Job Page
+Displays job listings, application options, and job details.
+![Job Page](./screenshots/job.png)
+
+### 👤 Profile Page
+User profile section showing personal info, skills, and account settings.
+![Profile Page](./screenshots/profile.png)
+
 
 ---
 
